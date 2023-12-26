@@ -11,6 +11,11 @@
 		2DAA66692B3AE30A0027F543 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAA66682B3AE30A0027F543 /* ContentView.swift */; };
 		2DAA666B2B3AE30B0027F543 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DAA666A2B3AE30B0027F543 /* Assets.xcassets */; };
 		2DAA666E2B3AE30B0027F543 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DAA666D2B3AE30B0027F543 /* Preview Assets.xcassets */; };
+		2DAA66752B3AE3DC0027F543 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAA66742B3AE3DC0027F543 /* ContactsView.swift */; };
+		2DAA66772B3AE3EC0027F543 /* NumbersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAA66762B3AE3EC0027F543 /* NumbersView.swift */; };
+		2DAA66792B3AEA540027F543 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAA66782B3AEA540027F543 /* DataStore.swift */; };
+		2DAA667C2B3AEA850027F543 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAA667B2B3AEA850027F543 /* Person.swift */; };
+		2DAA667F2B3B05D20027F543 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAA667E2B3B05D20027F543 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		2DAA66682B3AE30A0027F543 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2DAA666A2B3AE30B0027F543 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DAA666D2B3AE30B0027F543 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2DAA66742B3AE3DC0027F543 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		2DAA66762B3AE3EC0027F543 /* NumbersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersView.swift; sourceTree = "<group>"; };
+		2DAA66782B3AEA540027F543 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		2DAA667B2B3AEA850027F543 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		2DAA667E2B3B05D20027F543 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,11 @@
 			children = (
 				2DAA66662B3AE30A0027F543 /* ListOfPeopleApp.swift */,
 				2DAA66682B3AE30A0027F543 /* ContentView.swift */,
+				2DAA66742B3AE3DC0027F543 /* ContactsView.swift */,
+				2DAA66762B3AE3EC0027F543 /* NumbersView.swift */,
+				2DAA667E2B3B05D20027F543 /* DetailView.swift */,
+				2DAA667D2B3AEA8D0027F543 /* Model */,
+				2DAA667A2B3AEA660027F543 /* Services */,
 				2DAA666A2B3AE30B0027F543 /* Assets.xcassets */,
 				2DAA666C2B3AE30B0027F543 /* Preview Content */,
 			);
@@ -65,6 +80,22 @@
 				2DAA666D2B3AE30B0027F543 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2DAA667A2B3AEA660027F543 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2DAA66782B3AEA540027F543 /* DataStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2DAA667D2B3AEA8D0027F543 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2DAA667B2B3AEA850027F543 /* Person.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +168,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DAA667C2B3AEA850027F543 /* Person.swift in Sources */,
+				2DAA66752B3AE3DC0027F543 /* ContactsView.swift in Sources */,
 				2DAA66692B3AE30A0027F543 /* ContentView.swift in Sources */,
+				2DAA667F2B3B05D20027F543 /* DetailView.swift in Sources */,
 				2DAA66672B3AE30A0027F543 /* ListOfPeopleApp.swift in Sources */,
+				2DAA66792B3AEA540027F543 /* DataStore.swift in Sources */,
+				2DAA66772B3AE3EC0027F543 /* NumbersView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
