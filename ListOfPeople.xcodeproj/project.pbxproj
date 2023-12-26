@@ -61,11 +61,8 @@
 		2DAA66652B3AE30A0027F543 /* ListOfPeople */ = {
 			isa = PBXGroup;
 			children = (
-				2DAA66662B3AE30A0027F543 /* ListOfPeopleApp.swift */,
-				2DAA66682B3AE30A0027F543 /* ContentView.swift */,
-				2DAA66742B3AE3DC0027F543 /* ContactsView.swift */,
-				2DAA66762B3AE3EC0027F543 /* NumbersView.swift */,
-				2DAA667E2B3B05D20027F543 /* DetailView.swift */,
+				2DAA66812B3B47FA0027F543 /* App */,
+				2DAA66802B3B468A0027F543 /* Views */,
 				2DAA667D2B3AEA8D0027F543 /* Model */,
 				2DAA667A2B3AEA660027F543 /* Services */,
 				2DAA666A2B3AE30B0027F543 /* Assets.xcassets */,
@@ -96,6 +93,25 @@
 				2DAA667B2B3AEA850027F543 /* Person.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		2DAA66802B3B468A0027F543 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2DAA66682B3AE30A0027F543 /* ContentView.swift */,
+				2DAA66742B3AE3DC0027F543 /* ContactsView.swift */,
+				2DAA66762B3AE3EC0027F543 /* NumbersView.swift */,
+				2DAA667E2B3B05D20027F543 /* DetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2DAA66812B3B47FA0027F543 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2DAA66662B3AE30A0027F543 /* ListOfPeopleApp.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
